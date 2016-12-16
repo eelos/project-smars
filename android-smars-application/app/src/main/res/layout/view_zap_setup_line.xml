@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/setting_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/zap_setup_outlet_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Outlet"
+        android:theme="@style/HomeAutomTheme.TextView.H2"/>
+
+    <EditText
+        android:id="@+id/setup_zap_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_form"
+        android:inputType="textPersonName"
+        android:maxLength="25"
+        android:hint="Label"
+        android:theme="@style/HomeAutomTheme.EditText.Form"/>
+
+</LinearLayout>
