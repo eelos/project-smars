@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- disabled color -->
+    <item
+        android:color="@color/colorComponentBackgroundGray_03"
+        android:state_enabled="false">
+    </item>
+    <!-- default color -->
+    <item
+        android:color="@color/colorPrimaryText">
+    </item>
+</selector>

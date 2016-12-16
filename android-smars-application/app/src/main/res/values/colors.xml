@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- material design https://material.google.com/style/color.html -->
+    <!-- https://www.materialpalette.com/ -->
+
+    <!--
+        Primary 500
+        - primary theme
+        - toolbox
+    -->
+    <color name="colorPrimary">#37322C</color>
+
+    <!--
+        Primary dark 700
+        - status bar
+    -->
+    <color name="colorPrimaryDark">#151311</color>
+    <color name="colorPrimaryWhite">#FFFFFF</color>
+
+    <!--
+        Secondary Colors 300
+        - Secondary information
+    -->
+
+    <!-- Accent Colors  200 -->
+    <color name="colorAccent">#645B56</color>
+    <color name="colorAccentColorRed">#FC4C02</color>
+
+    <!--Primary Text-->
+    <color name="colorPrimaryText">#645B56</color>
+    <!--Secondary Text-->
+    <color name="colorSecondaryText">#BFBAB6</color>
+
+    <!-- Component Background Colors -->
+    <color name="colorComponentBackgroundGray_03">#BBBBBB</color>
+    <!-- End Style Guide -->
+
+    <color name="color_divider">#BDBDBD</color>
+</resources>
