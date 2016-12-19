@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Home</string>
+
+    <string-array name="settings_array">
+        <item>Home</item>
+        <item>Server</item>
+        <item>Zap</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="drawer_header">Home Sweet Home</string>
+    <string name="save">Save</string>
+
+    <string name="command_on">ON</string>
+    <string name="command_off">OFF</string>
+
+    <string name="zap_connecting_message">Connecting&#8230;</string>
+
+    <string name="setup_server_title">Server</string>
+    <string name="setup_server_subtitle">Change the server address.</string>
+    <string name="setup_protocol">http://</string>
+    <string name="setup_address">Address</string>
+    <string name="setup_port">Port</string>
+    <string name="setup_server_current">Current address: </string>
+    <string name="setup_server_saved">Server address saved!</string>
+
+    <string name="setup_zap_title">Zap labels</string>
+    <string name="setup_zap_subtitle">Change the name of the zap outlets.</string>
+    <string name="setup_zap_outlet_1">Outlet 1</string>
+    <string name="setup_zap_outlet_2">Outlet 2</string>
+    <string name="setup_zap_outlet_3">Outlet 3</string>
+    <string name="setup_zap_outlet_4">Outlet 4</string>
+    <string name="setup_zap_outlet_5">Outlet 5</string>
+    <string name="setup_zap_saved">Zap settings saved!</string>
+
+    <string name="about_text">System designed and developed by \nMario Di Dio and Sara
+        Craba</string>
+</resources>

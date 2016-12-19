@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_layout_margin">
+
+    <TextView
+        android:id="@+id/setup_server_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_server_title"
+        android:theme="@style/HomeAutomTheme.TextView.H1"/>
+
+    <TextView
+        android:id="@+id/setup_server_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_server_title"
+        android:layout_marginBottom="@dimen/activity_layout_margin"
+        android:text="@string/setup_server_subtitle"
+        android:theme="@style/HomeAutomTheme.TextView.H2"/>
+
+    <TextView
+        android:id="@+id/setup_server_current_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_server_subtitle"
+        android:layout_marginBottom="@dimen/activity_layout_margin"
+        android:theme="@style/HomeAutomTheme.TextView.BodyCopy"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_server_current_address"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/setting_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setup_address"
+                android:theme="@style/HomeAutomTheme.TextView.H2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:text="@string/setup_protocol"
+                    android:theme="@style/HomeAutomTheme.TextView.BodyCopy"/>
+
+                <EditText
+                    android:id="@+id/setup_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_form"
+                    android:inputType="textUri"
+                    android:theme="@style/HomeAutomTheme.EditText.Form"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/setting_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/setup_port"
+                android:theme="@style/HomeAutomTheme.TextView.H2"/>
+
+            <EditText
+                android:id="@+id/setup_port"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_form"
+                android:inputType="number"
+                android:maxLength="5"
+                android:theme="@style/HomeAutomTheme.EditText.Form"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setup_server_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/setting_margin"
+        android:text="@string/save"
+        android:theme="@style/HomeAutomTheme.Button.DefaultButton"/>
+
+</RelativeLayout>

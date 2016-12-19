@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_layout_margin">
+
+    <TextView
+        android:id="@+id/setup_zap_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setup_zap_title"
+        android:theme="@style/HomeAutomTheme.TextView.H1"/>
+
+    <TextView
+        android:id="@+id/setup_zap_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_zap_title"
+        android:layout_marginBottom="@dimen/activity_layout_margin"
+        android:text="@string/setup_zap_subtitle"
+        android:theme="@style/HomeAutomTheme.TextView.H2"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setup_zap_save_button"
+        android:layout_below="@id/setup_zap_subtitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.saracraba.smars.views.ZapSetupLine
+                android:id="@+id/zap_outlet_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/zap_line_margin"
+                android:layout_marginTop="@dimen/zap_line_margin"/>
+
+
+            <com.saracraba.smars.views.ZapSetupLine
+                android:id="@+id/zap_outlet_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/zap_line_margin"
+                android:layout_marginTop="@dimen/zap_line_margin"/>
+
+            <com.saracraba.smars.views.ZapSetupLine
+                android:id="@+id/zap_outlet_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/zap_line_margin"
+                android:layout_marginTop="@dimen/zap_line_margin"/>
+
+            <com.saracraba.smars.views.ZapSetupLine
+                android:id="@+id/zap_outlet_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/zap_line_margin"
+                android:layout_marginTop="@dimen/zap_line_margin"/>
+
+
+            <com.saracraba.smars.views.ZapSetupLine
+                android:id="@+id/zap_outlet_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/zap_line_margin"
+                android:layout_marginTop="@dimen/zap_line_margin"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/setup_zap_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/setting_margin"
+        android:text="@string/save"
+        android:theme="@style/HomeAutomTheme.Button.DefaultButton"/>
+</RelativeLayout>

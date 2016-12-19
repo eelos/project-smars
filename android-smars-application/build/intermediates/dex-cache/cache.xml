@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/saracraba/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_74ec3b0d6aace4c810a20723c49425eb1bf870c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_8e1ac840ed7dccbd87dc5b1d4ce79178f76c5656.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_afe4569a5dbc44e2d9926e6f5ec481df3e47c099.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_f4615cd8e9de4bfd927529a2d00eb2dae51d7d55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/saracraba/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.0_b433e5aa0503eb23c5913c908fa0e338324183e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_7c2d95eaa417e184d5f255a8274067b029c6c173.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/saracraba/Documents/Saracraba/Smars/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_ed49764cba74d356d84d201453f8f661a9c6b9c1.jar" />
+    </item>
+
+</items>
