@@ -1,0 +1,224 @@
+{
+  "name": "actionPackages",
+  "deploymentStatus": {
+    "state": "NEW",
+    "previewEndTime": "2017-02-21T07:32:34.050741Z"
+  },
+  "versionLabel": "API.AI generated package for agent Sméagol",
+  "agentInfo": {
+    "languageCode": "en-US",
+    "projectId": "your-project-id",
+    "invocationNames": [
+      "smeagol"
+    ],
+    "voiceName": "male_2",
+    "logoUrl": "https://static.api.ai/assets/images/logo.png"
+  },
+  "actions": [
+    {
+      "description": "Insult",
+      "initialTrigger": {
+        "intent": "assistant.intent.action.MAIN",
+        "queryPatterns": [
+          {
+            "queryPattern": "smelly"
+          },
+          {
+            "queryPattern": "ugly"
+          },
+          {
+            "queryPattern": "stupid"
+          },
+          {
+            "queryPattern": "fat"
+          }
+        ]
+      },
+      "inDialogTriggers": [
+        {
+          "intent": "39acd4d6-b436-4e73-812a-f92e5b36b6b5",
+          "queryPatterns": [
+            {
+              "queryPattern": "smelly"
+            },
+            {
+              "queryPattern": "ugly"
+            },
+            {
+              "queryPattern": "stupid"
+            },
+            {
+              "queryPattern": "fat"
+            }
+          ]
+        },
+        {
+          "intent": "74acaee7-70aa-46bf-8ae2-357188f4a2e6",
+          "queryPatterns": [
+            {
+              "queryPattern": "Make it like  $multiple_lights:multiple_lights"
+            },
+            {
+              "queryPattern": "Show me some  $multiple_lights:multiple_lights"
+            },
+            {
+              "queryPattern": "I\u0027m going to  $multiple_lights:multiple_lights"
+            },
+            {
+              "queryPattern": "I\u0027m tired,  $multiple_lights:multiple_lights"
+            },
+            {
+              "queryPattern": "Is  $multiple_lights:multiple_lights  time!"
+            },
+            {
+              "queryPattern": "I want to watch the  $multiple_lights:multiple_lights"
+            }
+          ]
+        },
+        {
+          "intent": "c953c334-1d9d-4809-9cd7-07b42642c6bd",
+          "queryPatterns": [
+            {
+              "queryPattern": "$single_light:single_light  my light"
+            },
+            {
+              "queryPattern": "$lightNumber:lightNumber  light"
+            },
+            {
+              "queryPattern": "$lightNumber:lightNumber"
+            },
+            {
+              "queryPattern": "light  $single_light:single_light"
+            },
+            {
+              "queryPattern": "$single_light:single_light"
+            },
+            {
+              "queryPattern": "$single_light:single_light  my  $lightNumber:lightNumber  light"
+            }
+          ]
+        },
+        {
+          "intent": "RAW_TEXT",
+          "queryPatterns": [
+            {
+              "queryPattern": "$SchemaOrg_Text:text"
+            }
+          ]
+        }
+      ],
+      "httpExecution": {
+        "url": "some_URL"
+      },
+      "signInRequired": false
+    }
+  ],
+  "customTypes": [
+    {
+      "name": "$single_light",
+      "items": [
+        {
+          "key": "on",
+          "synonyms": [
+            "on",
+            "turn on",
+            "lit up",
+            "switch on"
+          ]
+        },
+        {
+          "key": "off",
+          "synonyms": [
+            "off",
+            "turn off",
+            "switch off"
+          ]
+        }
+      ],
+      "isDynamicDefined": true
+    },
+    {
+      "name": "$lightNumber",
+      "items": [
+        {
+          "key": "1",
+          "synonyms": [
+            "one",
+            "first",
+            "kitchen"
+          ]
+        },
+        {
+          "key": "2",
+          "synonyms": [
+            "two",
+            "second",
+            "living room"
+          ]
+        },
+        {
+          "key": "3",
+          "synonyms": [
+            "music desk",
+            "third",
+            "three",
+            "3"
+          ]
+        },
+        {
+          "key": "4",
+          "synonyms": [
+            "four",
+            "fourth",
+            "bedroom",
+            "4"
+          ]
+        },
+        {
+          "key": "5",
+          "synonyms": [
+            "studio",
+            "five",
+            "fifth",
+            "5"
+          ]
+        }
+      ],
+      "isDynamicDefined": true
+    },
+    {
+      "name": "$multiple_lights",
+      "items": [
+        {
+          "key": "bed",
+          "synonyms": [
+            "sleep",
+            "bed"
+          ]
+        },
+        {
+          "key": "tv",
+          "synonyms": [
+            "movie",
+            "tv"
+          ]
+        },
+        {
+          "key": "goodnight",
+          "synonyms": [
+            "dark",
+            "goodnight"
+          ]
+        },
+        {
+          "key": "christmas",
+          "synonyms": [
+            "vegas",
+            "christmas"
+          ]
+        }
+      ],
+      "isDynamicDefined": true
+    }
+  ]
+}
