@@ -1,5 +1,5 @@
 # Project S-MARS
-Project S-MARS is an home automation system implemented on Arduino microcontroller and controlled by an Android application. The project is developed by Mario Di Dio, PhD and Sara Craba. Special thanks to Ben Jirasut and Lynne Freeman.
+Project S-MARS is an home automation system implemented on Arduino microcontroller. The system can be controlled by the Android application or the Google Home device. The project is developed by Mario Di Dio, PhD and Sara Craba. Special thanks to Ben Jirasut and Lynne Freeman.
 
 <p>
 The project started after a couple of months from when we bought a Etekcity Zap remote control and outlet set for our appartment. It was a cool setup but we were constantly loosing the remotes (tipically under the couch).<br>
@@ -12,11 +12,15 @@ After some more soldering (thanks Ben) and more clean up, we assembled our proto
   <img src="https://cloud.githubusercontent.com/assets/5208638/21297047/538b6f7c-c52d-11e6-9ec2-06fd0d0c7ce3.jpg" width="350"/>
 </p>
 
-In the meantime we developed the Android application to switch on and off our outlets from any Android device!
+We developed an Android application to switch on and off our outlets from any Android device...
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/5208638/21297049/558b7ed4-c52d-11e6-8e5f-046ef39a5aac.png" width="250"/>
   <img src="https://cloud.githubusercontent.com/assets/5208638/21297048/548f8912-c52d-11e6-829b-1317779aa3b7.png" width="250"/>
   <img src="https://cloud.githubusercontent.com/assets/5208638/21297050/5692ef74-c52d-11e6-93cb-4af8c33e7d6d.png" width="250"/>
 </p>
+
+and we developed a custom private Google Home Action to control our outlets through Google Home just asking to our Assistant 'Switch on the light in my living room'!
+<p>
+To know more about how to build a custom private Google Home Action you can follow our tutorial on <a href="https://medium.com/@saracraba/how-to-create-a-custom-private-google-home-action-260e2c512fc#.oef88ee0r">Medium</a>.
 
 That's it for now, but we are waiting on some new components to extend our personal home automation system!
