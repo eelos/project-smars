@@ -112,6 +112,7 @@ app.post('/', function (req, res) {
 						}
 					}
 			}
+		 	assistant.tell('We swear to serve the master of the Precious.');
 		};
  
 		assistant.handleRequest(responseHandler);
